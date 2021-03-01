@@ -1,0 +1,13 @@
+@CHARSET "ISO-8859-1";
+#productImage{
+  width: 250px;
+  height: 400px;
+}
+
+#reviewArea{
+  width: 80%;
+}
+#usernameArea{
+	color: rgb(9, 31, 134);
+	text-decoration: underline;
+}
