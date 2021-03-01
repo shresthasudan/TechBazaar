@@ -1,0 +1,17 @@
+@CHARSET "ISO-8859-1";
+.star-rating {
+  line-height:32px;
+  font-size:1.25em;
+}
+
+.star-rating .fa-star{color: red;}
+.star-rating .fa-star-o{color:gray; display: inline-block;}
+.fa-star-o::before {
+    content: "\f005";
+}
+.fa-star-o:hover{
+	color: #FF9800;
+}
+.fa-star:hover{
+	color: gray;
+}
